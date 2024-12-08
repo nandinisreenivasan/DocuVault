@@ -48,7 +48,7 @@ To know the code coverage run below command from `/document_management` folder:
 | Method | Endpoint    | Description                                        |
 |--------|-------------|----------------------------------------------------|
 | POST   | /signup/    | User signup                                        |
-| POST   | /login/     | User login (returns access and refresh tokens)    |
+| GET   | /login/     | User login (returns access and refresh tokens)    |
 | POST   | /upload/                        | Upload a document (requires authentication)     |
 | GET    | /list/                          | List all documents (requires authentication)     |
 | PUT    | /update/<uuid:document_id>/     | Update tags of a document (requires authentication) |
