@@ -9,4 +9,3 @@ urlpatterns = [
     path('update/<uuid:document_id>/', views.update_document, name='update_document'),
     path('delete/<uuid:document_id>/', views.delete_document, name='delete_document'),
 ]
-
