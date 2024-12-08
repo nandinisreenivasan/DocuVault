@@ -5,4 +5,3 @@ class DocumentSerializer(serializers.ModelSerializer):
     class Meta:
         model = Document
         fields = ['uuid','pages', 'text', 'tags', 'doc_type']
-
